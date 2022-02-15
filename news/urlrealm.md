@@ -1,3 +1,8 @@
+---
+layout: default
+title: URLRealm - URL Shortener
+description: Free URL Shortener service by Mayank Vikash
+---
 ## URLRealm - URL Shortener
 
 URLReaml is a free link shortener made by Mayank Vikash. Get quality short links according to your need.
