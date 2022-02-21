@@ -212,7 +212,7 @@ Full Source Code:
     }
 
 Output: 
-![enter image description here](https://raw.githubusercontent.com/MayankVikash/mayankvikash.ml/gh-pages/assets/images/posts/java-marks-management/java-project-simple-report-card-output.gif)
+![java-project-simple-report-card-output](https://raw.githubusercontent.com/MayankVikash/mayankvikash.ml/gh-pages/assets/images/posts/java-marks-management/java-project-simple-report-card-output.gif)
 
 Note: Currently, it supports only 2 subjects but I will update it to 15 subjects, I am working on it, will update here soon.
 
