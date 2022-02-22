@@ -3,6 +3,8 @@ description:
 show_downloads: false
 google_analytics:
 theme: jekyll-theme-cayman
+url: https://mayankvikash.ml/
+baseurl: ''
 ---
 permalink: /404.html
 ---
