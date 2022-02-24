@@ -7,6 +7,7 @@ description: Java Project to take input of marks of 2 subjects and display Total
 ---
 
 
+
 ## A Simple Report Card in Java
 
 I learned Java last semester, so I thought I should make a project.  
@@ -36,7 +37,7 @@ public  static  void  main(String  args[]) {
 
 ```
 
-Starting with my code, I defined  [Scanner Class](https://www.blogger.com/blog/post/edit/3573381709710223752/1123423921591123313#)  a variable ‘sc’ to make it easy to get input from the user
+Starting with my code, I defined  [Scanner Class](https://www.w3schools.com/java/java_user_input.asp)  a variable ‘sc’ to make it easy to get input from the user
 
 ```
 try (Scanner  sc = new  Scanner(System.in)) {
@@ -94,7 +95,7 @@ This will add the two values and print the Total.
 
 This code will find the percentage, just take the total, divide it by 200 (because there are 2 subjects so total marks will be 200) then, multiply it by 100. Simple.
 
-Note: ‘float’ is used because the answer may be in decimal and it is also multiplied by ‘float’ to covert it into float datatype. How to convert  [Integer into Float.](https://www.blogger.com/blog/post/edit/3573381709710223752/1123423921591123313#)
+Note: ‘float’ is used because the answer may be in decimal and it is also multiplied by ‘float’ to covert it into float datatype. How to convert  [Integer into Float.](https://www.c-sharpcorner.com/article/the-complete-java-type-casting-tutorial/)
 
 ```
 float  percent = (float) total / 200 * 100;
@@ -2953,5 +2954,6 @@ Latest updates: https://mayankvikash.ml//news/
 HTML Sitemap: https://mayankvikash.ml/sitemap.html
 Sitemap: https://mayankvikash.ml/sitemap.xml
 Made by  [Mayank Vikash](https://mayankvikash.ml/)
+
 
 
