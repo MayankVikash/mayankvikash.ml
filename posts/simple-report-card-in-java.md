@@ -8,7 +8,10 @@ description: Java Project to take input of marks of 2 subjects and display Total
 
 
 
+
 ## A Simple Report Card in Java
+
+![Report-Card-in-Java-Screenshot](https://blogger.googleusercontent.com/img/a/AVvXsEhQBjhZTM38x0STBTkOOfxeXYQTQIFZmjpxEfYAdYhxd22Tdbb1WOKPr7nmCDTndKiXA6VBlE6kDTswH5S1THQD_O2Gg47T5gxitdVKeCeVoWsqxjvoMK73kaTWiy-Kl-LocGEZi387iNMLwh-e3k_D3Tbk90BC4CDNTyx55-TTUIpRU9l1mwTHyvmT)
 
 I learned Java last semester, so I thought I should make a project.  
 I searched on Google for Java projects and I found:
@@ -2954,6 +2957,5 @@ Latest updates: https://mayankvikash.ml//news/
 HTML Sitemap: https://mayankvikash.ml/sitemap.html
 Sitemap: https://mayankvikash.ml/sitemap.xml
 Made by  [Mayank Vikash](https://mayankvikash.ml/)
-
 
 
