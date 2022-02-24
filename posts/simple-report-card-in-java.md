@@ -9,9 +9,10 @@ description: Java Project to take input of marks of 2 subjects and display Total
 
 
 
+
 ## A Simple Report Card in Java
 
-![Report-Card-in-Java-Screenshot](https://blogger.googleusercontent.com/img/a/AVvXsEhQBjhZTM38x0STBTkOOfxeXYQTQIFZmjpxEfYAdYhxd22Tdbb1WOKPr7nmCDTndKiXA6VBlE6kDTswH5S1THQD_O2Gg47T5gxitdVKeCeVoWsqxjvoMK73kaTWiy-Kl-LocGEZi387iNMLwh-e3k_D3Tbk90BC4CDNTyx55-TTUIpRU9l1mwTHyvmT)
+![Report-Card-in-Java-Screenshot](https://blogger.googleusercontent.com/img/a/AVvXsEgQeRUV4FpooVIL5vqyZUzNT6_B-Naze4bBRE1pmOeVvIeeL2JMXs4wtaw1FPK0qcllEn1Lj46xeD7snqj-s4WcglcSmqPeCvvLgFYsnAsL6AL8na9He_TkYPBGmlFZFOoInkAcLxwa0GG3NQUuEPfr3Lxu_7xYGsggEX-JAG3uRb3Jepu7g3UU1vFW)
 
 I learned Java last semester, so I thought I should make a project.  
 I searched on Google for Java projects and I found:
@@ -275,7 +276,7 @@ Wow great! I am able to make it but it's look little bit easy, let's add some co
 ### Write a program to take marks of 15 subjects from the user and display the Total, Percentage, Highest Marks, Average, and Remarks. It should also work if the number of subjects is less than 15 .
 
 Well. looks good. So, starting with formating the old code.
-![commented-out-old-code](https://blogger.googleusercontent.com/img/a/AVvXsEjd65WhYsNlRl03_Pspe5JNVkXDrrjRuE7Uiw-76ziJr3XjwzUD98lVdr3CCKG4Ez8pfWwJ75YwMfr02BpzgHAQ_NouOMND5Dvklwg6gvTlGSwdYG6zoC7p_IBPQ9S6z70qR7Uthf6sDcOHrlP623T9zTg7SJsxw2QfsCWwfKKXekjrc47YZCsHB595=s1920-rw)
+![commented-out-old-code](https://blogger.googleusercontent.com/img/a/AVvXsEgMuboHvKJxqRxYpcHT4CYemehQTUmRjW5zykTEMXCVbdcuC0HLwtIJsUd3tGj7YVEC_mw6SLGTxdaJWTKS6QsAh0wTzHiUOCSpcjRdEvxm0y94yHpu1IBIBMz6bVLrPZho45HpZQXIpHGxP6hURsURB_5F63vQQPKr8CByLZLGVeYIJa6crWXruD67)
 
 Then, I took a variable and asked how many subject are there in total:
 
@@ -2957,5 +2958,6 @@ Latest updates: https://mayankvikash.ml//news/
 HTML Sitemap: https://mayankvikash.ml/sitemap.html
 Sitemap: https://mayankvikash.ml/sitemap.xml
 Made by  [Mayank Vikash](https://mayankvikash.ml/)
+
 
 
