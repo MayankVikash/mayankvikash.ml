@@ -2951,12 +2951,16 @@ This is how the code looks like if the total subjcts are 15:
 
 
 
-Originally Published at: https://mayankvikash.ml/posts/simple-report-card-in-java.html
+[Originally Published](https://mayankvikash.ml/posts/simple-report-card-in-java.html)
 
-Check out other posts: https://mayankvikash.ml//posts/
-Latest updates: https://mayankvikash.ml//news/ 
-HTML Sitemap: https://mayankvikash.ml/sitemap.html
-Sitemap: https://mayankvikash.ml/sitemap.xml
+[Check out other posts](https://mayankvikash.ml/posts/)
+
+[Latest updates](https://mayankvikash.ml//news/)
+
+[HTML Sitemap](https://mayankvikash.ml/sitemap.html)
+
+[Sitemap](https://mayankvikash.ml/sitemap.xml)
+
 Made by  [Mayank Vikash](https://mayankvikash.ml/)
 
 
