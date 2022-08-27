@@ -1,11 +1,16 @@
-title: Mayank Vikash
-description: I am passionate to learn about how technologies work, I will post about my learning here.
-show_downloads: false
-google_analytics:
-theme: just-the-docs
-# jekyll-theme-cayman
-url: https://mayankvikash.ml/
-baseurl: ''
----
-permalink: /404.html
----
+#title: Mayank Vikash
+#description: I am passionate to learn about how technologies work, I will post about my learning here.
+#show_downloads: false
+#google_analytics:
+#theme: jekyll-theme-cayman
+#url: https://mayankvikash.ml/
+#baseurl: ''
+#---
+#permalink: /404.html
+#---
+
+
+title: "Remote theme example"
+remote_theme: just-the-docs/just-the-docs
+color_scheme: "dark"
+search_enabled: false
