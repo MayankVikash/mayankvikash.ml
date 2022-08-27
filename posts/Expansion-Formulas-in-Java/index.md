@@ -201,13 +201,14 @@ System.out.println("Wrong Choice");
 ```
 
 ## Output
+ Image:
+
+![Output](https://mayankvikash.ml/posts/Expansion-Formulas-in-Java/exp-formula-in0java-output.jpeg)
+</p>
 <p>
 <iframe src="https://mayankvikash.ml/posts/Expansion-Formulas-in-Java/exp-formula-java-output.webm" allowfullscreen>
 </p>
 <br> 
-
-Image:
-
-![Output](https://mayankvikash.ml/posts/Expansion-Formulas-in-Java/exp-formula-in0java-output.jpeg)
+<p>
 
 
