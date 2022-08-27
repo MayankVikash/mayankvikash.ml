@@ -201,8 +201,10 @@ System.out.println("Wrong Choice");
 ```
 
 ## Output
+<p>
 <iframe src="https://mayankvikash.ml/posts/Expansion-Formulas-in-Java/exp-formula-java-output.webm" allowfullscreen>
-
+</p>
+<br> 
 
 Image:
 
