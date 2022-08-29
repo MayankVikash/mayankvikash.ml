@@ -1,3 +1,4 @@
+
 ---
 
 layout: default
@@ -7,9 +8,9 @@ title: Expansion Formulas in Java
 description: A simple java program to show take the input a and b and display the output based on the formula selected by the user.
 
 ---
-![Expansions Formulae Program in Java](https://mayankvikash.ml/posts/Expansion-Formulas-in-Java/exp-frmula-java.jpg)
+![Expansions Formulae Program in Java](https://mayankvikash.ml/posts/Expansion-Formulas-in-Java/exp-frmula-java.webp)
 I was practising Maths and a thought came up to my mind that I should make a program in Java that could take the input in variables 'a' and 'b' and then it will ask the user which formulae of expansion they want to perform.
-![Asking users which formulae they want to use](https://mayankvikash.ml/posts/Expansion-Formulas-in-Java/java-console-expansion-in-java-ask.jpeg)
+![Asking users which formulae they want to use](https://mayankvikash.ml/posts/Expansion-Formulas-in-Java/java-console-expansion-in-java-ask.webp)
 Something like this.
 Currently, it has only 5 formulas because I am lazy to add more.
 
@@ -31,7 +32,7 @@ So, this program will work for the following formulas:
  - (a+b)³
  - (a-b)³
 
-I took the input of the choice in a variable **ip** (Don't know why I chose this name 😅) which is of integer data type.
+I took the input of the choice in a variable **ip** (Don't know why I chose this name 😅) which is of integer data type.    
 ```java
     int  ip = sc.nextInt();
 ```
@@ -43,16 +44,16 @@ I also took the value of 'a' and 'b' as input, because they are common variables
     double  a = sc.nextDouble();
     double  b = sc.nextDouble();
 ```
-The variables **a** and **b** will contain the values, input by the user.
+The variables a and b will contain the values, input by the user.
 
-(Note: variable **a** and **b** are of the double datatype, because the user may want to enter a decimal number.)
+(Note: variable a and b are of the double datatype, because the user may want to enter a decimal number.)
 
 Now, when you have got the values, you just have to put the formula and solve it. This will work for Maths but in Java, you have to do a little bit more work.
 
 First, there is a condition, which will execute the formulae which the user has entered.
-![Condition Statement](https://mayankvikash.ml/posts/Expansion-Formulas-in-Java/exp-formula-java-condition.jpeg)
+![Condition Statement](https://mayankvikash.ml/posts/Expansion-Formulas-in-Java/exp-formula-java-condition.webp)
 
-For example, if the user entered choice 1,  the program will calculate (a+b)² from the given values of **a** and **b**.
+For example, if the user entered choice 1,  the program will calculate (a+b)² from the given values of a and b.
 
 Similarly, if the user entered choice 5,  the program will calculate (a-b)³.
 
@@ -201,13 +202,16 @@ System.out.println("Wrong Choice");
 ```
 
 ## Output
- Image:
+ ### Image
 
-![Output](https://mayankvikash.ml/posts/Expansion-Formulas-in-Java/exp-formula-in0java-output.jpeg)
+![Output](https://mayankvikash.ml/posts/Expansion-Formulas-in-Java/exp-formula-in0java-output.webp)
 
-<p>
+### Video
 <iframe src="https://mayankvikash.ml/posts/Expansion-Formulas-in-Java/exp-formula-java-output.webm" allowfullscreen>
-</p>
-<br> 
+
+Check out [Simple Report Card in Java](https://mayankvikash.ml/posts/simple-report-card-in-java)
+Read other [posts](https://mayankvikash.ml/posts/)
+[Sitemap](https://mayankvikash.ml/sitemap.xml)
+
 
 
