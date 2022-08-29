@@ -1,11 +1,10 @@
-
 ---
 
 layout: default
 
 title: Expansion Formulas in Java
 
-description: A simple java program to show take the input a and b and display the output based on the formula selected by the user.
+description: A simple java program to take the input a and b and display the output based on the formula selected by the user.
 
 ---
 ![Expansions Formulae Program in Java](https://mayankvikash.ml/posts/Expansion-Formulas-in-Java/exp-frmula-java.webp)
