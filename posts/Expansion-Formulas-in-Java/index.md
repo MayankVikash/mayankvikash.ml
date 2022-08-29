@@ -201,16 +201,18 @@ System.out.println("Wrong Choice");
 ```
 
 ## Output
- ### Image
+### Image
 
 ![Output](https://mayankvikash.ml/posts/Expansion-Formulas-in-Java/exp-formula-in0java-output.webp)
-
-### Video
-<iframe src="https://mayankvikash.ml/posts/Expansion-Formulas-in-Java/exp-formula-java-output.webm" allowfullscreen>
 
 Check out [Simple Report Card in Java](https://mayankvikash.ml/posts/simple-report-card-in-java)
 Read other [posts](https://mayankvikash.ml/posts/)
 [Sitemap](https://mayankvikash.ml/sitemap.xml)
+
+### Video
+<iframe src="https://mayankvikash.ml/posts/Expansion-Formulas-in-Java/exp-formula-java-output.webm" allowfullscreen>
+
+
 
 
 
