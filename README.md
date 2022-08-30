@@ -1,4 +1,4 @@
-#mayankvikash.ml
+# mayankvikash.ml
 <h2 align="center">Hi 👋, I'm Mayank Vikash</h2>
 <h3 align="center">Student with interest in tech.</h3>
 
