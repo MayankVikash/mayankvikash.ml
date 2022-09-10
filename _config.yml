@@ -10,6 +10,8 @@ baseurl: ''
 permalink: /404.html
 ---
 
+gem: [jekyll-admin]
+
 plugins:
   - jekyll-sitemap
 
