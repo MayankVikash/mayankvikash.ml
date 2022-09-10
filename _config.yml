@@ -9,3 +9,7 @@ baseurl: ''
 permalink: /404.html
 ---
 
+plugins:
+  - jekyll-sitemap
+
+
