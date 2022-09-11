@@ -4,4 +4,17 @@ description: Welcome to News | Mayank Vikash
 
 ---
 
-<a class="twitter-timeline" href="https://twitter.com/MayankVikash1?ref_src=twsrc%5Etfw">Tweets by MayankVikash1</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+ - By Mayank Vikash
+ - Last updated: Sep 11, 2022
+
+Welcome to News | Mayank Vikash
+In this section of the website, I will talk and discuss about my different projects and tech news and all other things apart from tutorials. 
+
+Thanks for visiting!
+
+This is a list of articles you can read:
+
+
+[Why URLRealm is not ready yet?](https://mayankvikash.ml/news/Why-URLRealm-is-not-ready-yet/)
+
+[URLRealm](https://mayankvikash.ml/news/URLRealm/)
