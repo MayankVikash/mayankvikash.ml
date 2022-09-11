@@ -2,253 +2,291 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home | Mayank Vikash</title>
-    <meta name="description"
-        content="Welcome to Home | Mayank Vikash. My own website made with HTML, CSS and JavaScript.">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="lang" content="en-us">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta name="language" content="English">
-    <meta name="author" content="Mayank Vikash">
-    <meta name="keywords"
-        content="Mayank Vikash, mayankvikash, developer, Indian Developer, Developer Website, Mayank Vikash Official Website">
+  <!-- Primary Meta Tags -->
+  <title>Home - Mayank Vikash</title>
+  <meta name="title" content="Home - Mayank Vikash">
+  <meta name="description"
+    content="Welcome to Home | Mayank Vikash. My website which built with HTML, CSS and JavaScript.">
 
-    <!-- favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
-    <link rel="manifest" href="/assets/favicon/site.webmanifest">
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://mayankvikash.ml/">
+  <meta property="og:title" content="Home - Mayank Vikash">
+  <meta property="og:description"
+    content="Welcome to Home | Mayank Vikash. My website which built with HTML, CSS and JavaScript.">
+  <meta property="og:image" content="https://mayankvikash.ml/assets/images/logo.png">
 
-    <!-- OG Facebook  -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://mayankvikash.ml/">
-    <meta property="og:title" content="Mayank Vikash">
-    <meta property="og:description"
-        content="Welcome to Home | Mayank Vikash. My own website made with HTML, CSS and JavaScript.">
-    <meta property="og:image" content="https://mayankvikash.ml/assets/images/logo.png">
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://mayankvikash.ml/">
+  <meta property="twitter:title" content="Home - Mayank Vikash">
+  <meta property="twitter:description"
+    content="Welcome to Home | Mayank Vikash. My website which built with HTML, CSS and JavaScript.">
+  <meta property="twitter:image" content="https://mayankvikash.ml/assets/images/logo.png">
 
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://mayankvikash.ml/">
-    <meta property="twitter:title" content="Mayank Vikash">
-    <meta property="twitter:description"
-        content="Welcome to Home | Mayank Vikash. My own website made with HTML, CSS and JavaScript.">
-    <meta property="twitter:image" content="https://mayankvikash.ml/assets/images/logo.png">
-    <script type="application/ld+json">
-        {
-            "@context": "https://schema.org/",
-            "@type": "Person",
-            "name": "Mayank Vikash",
-            "url": "https://mayankvikash.ml/",
-            "image": "https://mayankvikash.ml/assets/images/logo.png",
-            "sameAs": [
-                "https://twitter.com/MayankVikash1",
-                "https://www.youtube.com/channel/UCzzy9siWUUPmQeLOsxZcuAA",
-                "https://www.linkedin.com/in/mayank-vikash-466972200/",
-                "https://soundcloud.com/mayankvikash?id=1000009324",
-                "https://github.com/MayankVikash",
-                "https://mayankvikash.ml/",
-                "https://www.facebook.com/mayank.vikash.56"
-            ],
-            "jobTitle": "Founder",
-            "worksFor": {
-                "@type": "Organization",
-                "name": "MV"
-            }
-        }
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org/",
+      "@type": "Person",
+      "name": "Mayank Vikash",
+      "url": "https://mayankvikash.ml/",
+      "image": "https://mayankvikash.ml/assets/images/logo.webp",
+      "sameAs": [
+        "https://twitter.com/MayankVikash1",
+        "https://in.linkedin.com/in/mayank-vikash-466972200",
+        "https://github.com/MayankVikash",
+        "https://mayankvikash.ml/"
+      ]
+    }
     </script>
-    <link rel="stylesheet" href="assets/css/website-2022.css">
-    <link rel="stylesheet" href="assets/css/website-2022-additional.css">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    .container {
+
+      background: linear-gradient(#2c3136, #2c3036);
+      width: 100%;
+    }
+
+    .content-main {
+      position: absolute;
+      width: 100%;
+      background: linear-gradient(0deg, rgba(39, 39, 39, 0.3), rgba(0, 0, 0, 0.3)), url("https://www.esa.int/var/esa/storage/images/19716864-11-eng-GB/ESA_root_pillars.jpg");
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      background-size: cover;
+      left: 0;
+      overflow-x: hidden;
+      color: #dde4eb;
+    }
+
+
+    .home {
+
+      /* height: 100vh; */
+    }
+
+    .navbar-toggler {
+      color: transparent !important;
+    }
+
+    .navbar-toggler-icon {
+      width: 1em;
+      height: 1em;
+    }
+
+    .heading {
+      text-align: center;
+    }
+
+    .cs {
+      /* font-weight: bold; */
+      font-size: 2em;
+
+      align-items: center;
+    }
+
+    .card {
+      --bs-card-bg: transparent;
+    }
+
+    a {
+      text-decoration: none;
+      color: cyan;
+    }
+
+    iframe {
+      background-color: white !important;
+      width: 100%;
+      height: 500px !important;
+    }
+
+    label {
+      width: 100%;
+    }
+
+    form input,
+    textarea {
+      width: 70%;
+      background-color: #517b9599;
+      border: 2px solid #50afe9;
+    }
+
+    form button {
+      width: 20%;
+      background-color: #517b9599;
+      border: 2px solid #50afe9;
+      text-align: center;
+
+    }
+
+    #footer {
+      text-align: center;
+    }
+  </style>
 
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+  <div class="container">
+    <div class="content-main">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
         <div class="container-fluid">
-            <a class="navbar-brand" href="https://mayankvikash.ml#home">Mayank Vikash</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-link" href="https://mayankvikash.ml#about">About</a>
-                    <a class="nav-link" href="https://mayankvikash.ml#contact">Contact</a>
-                    <a class="nav-link" href="https://mayankvikash.ml/news">News</a>
-                    <a class="nav-link" href="https://mayankvikash.ml/posts">Blog</a>
-                </div>
-            </div>
-        </div>
-    </nav>
+          <a class="navbar-brand" href="#">Mayank Vikash</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/Posts">Posts</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
 
-    <div class="container">
-
-        <div id="home">
-            <ul class="circles">
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
             </ul>
-            <h1 class="home-title">Mayank Vikash</h1> <br>
-            <p class="home-desc">Just a random guy who loves making websites!</p> <br>
-            <p class="home-news-text">Get the latest updates</p>
-            <h4 class="home-news">
-                <p> <br> <a class="web-link" href="/news" target="_blank"><button type="button"
-                            class="btn btn-primary">News</button></a> &nbsp; &nbsp; &nbsp; &nbsp; <a class="web-link"
-                        href="/posts" target="_blank"><button type="button" class="btn btn-primary">Blog</button></a>
+          </div>
+        </div>
+      </nav>
+      <div class="home">
+        <p>
+
+        <h1 class="heading"> <code> &lt;Hello World &frasl;&gt; </code> </h1>
+        <p class="heading cs"> <code> npm run <b>mayankvikash.ml</b></code> </p>
+        <p class="heading">Hey, I love learning new things, I would share my learning here!</p>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+
+          <div class="col">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Latest Tweets</h5>
+                <p class="card-text">
+                  <a class="twitter-timeline" data-tweet-limit="5" data-theme="dark"
+                    href="https://twitter.com/MayankVikash1?ref_src=twsrc%5Etfw">Tweets by MayankVikash1</a>
+                  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                 </p>
-            </h4>
-        </div>
-        <div id="about">
-            <h3>About</h3>
-            <p>I am a student developer currently, learning game development in Unity.
-                I love making designs and developing websites. I have learned multiple languages like HTML, CSS,
-                Javascript, PHP, Java, and frameworks like ReactJS, NextJS, JQuery.</p>
-            <p>Not only cool websites, I also love writing. I have wrote number of essays which are published on my
-                Blogspot.</p>
-            <p>I have made number of projects with the help of Front-End Technologies, some of them are:</p>
-
-            <div class="card-group">
-                <div class="card">
-
-                    <div class="card-body">
-                        <h5 class="card-title">M SHORTS</h5>
-                        <p class="card-text">M SHORTS is a free video sharing platform, it was created with the aim of
-                            providing quality videos for free.</p>
-
-                    </div>
-                </div>
-                <div class="card">
-
-                    <div class="card-body">
-                        <h5 class="card-title">URLRealm</h5>
-                        <p class="card-text">A free URL Shortener by Mayank Vikash. Currently, Under Development</p>
-
-                    </div>
-                </div>
-                <div class="card">
-
-                    <div class="card-body">
-                        <h5 class="card-title">Game (Name is not decided yet)</h5>
-                        <p class="card-text">An online game that runs in your browser.</p>
-
-                    </div>
-                </div>
+              </div>
             </div>
-            <br>
-            <p>Currently, I am learning Game Development in Unity and also making my own game. Check out the posts
-                section, I wil keep writing there about my progress.</p>
-            <p>
-                Few months ago, I published my own app on Amazon App Store and APKPure, It was the android version of M
-                SHORTS which I created with Java in Android Studio. Link to M SHORTS <a class="web-link"
-                    href="https://www.amazon.in/Mayank-Vikash-M-SHORTS/dp/B09GKXYF8M/">android version.</a>
-            </p>
-            <p>
-                I have also posted some Front-End Projects on my <a href="https://codepen.io/mayankvikash"
-                    class="web-link">Codepen</a>
-            </p>
-            <p>
-                I have made this <a href="https://github.com/MayankVikash/Projects" class="web-link">GitHub Repo</a> to
-                showcase my projects in various languages like, Java, PHP, Python etc.
-            </p>
-        </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Expansion Formulas in Java</h5>
+                <p class="card-text">
 
-        <div id="contact">
-            <h3>Contact</h3>
-            <p>
-                I am active on multiple platforms, you can check out my profile:
+                  <iframe src="https://mayankvikash.ml/posts/Expansion-Formulas-in-Java/" frameborder="0"></iframe>
 
-            <ul>
-
-                <li>I use GitHub the most, check out my <a class="web-link"
-                        href="https://github.com/mayankvikash">repositories</a></li>
-                <li>I tweet random things on <a class="web-link" href="https://twitter.com/mayankvikash1">Twitter</a>
-                </li>
-                <li>I love writing essays, check out my <a class="web-link"
-                        href="https://mayankvikash.blogspot.com/">Blogspot</a></li>
-                <li>Check out my profile on <a class="web-link" href="https://dev.to/mayankvikash">Dev.to</a></li>
-                <li>I post videos about me on <a class="web-link"
-                        href="https://www.youtube.com/channel/UCzzy9siWUUPmQeLOsxZcuAA">YouTube</a></li>
-                <li>Check out my articles on <a class="web-link" href="https://medium.com/@MayankVikash">Medium</a>
-                </li>
-                <li>Check out my profile on <a class="web-link"
-                        href="https://www.linkedin.com/in/mayank-vikash-466972200">LinkedIn</a></li>
-                <li>Check out my <a class="web-link" href="https://g.co/kgs/SggE71">Knowledge Panel</a></li>
-
-                <li>I am also available on <a class="web-link"
-                        href="https://www.reddit.com/user/Mayank-Vikash">Reddit</a></li>
-
-                <li>
-                    Check out my <a class="web-link" href="https://mayankvikash.hashnode.dev/">Hashnode</a>
-                </li>
-            </ul>
-            </p>
-            <p>
-                You can also send an email to admin@mayankvikash.ml <a class="web-link"
-                    href="mailto:admin@mayankvikash.ml">(Click
-                    here to send) </a>
-            </p>
-        </div>
-
-        <div id="footer">
-            <br>
-            <p>
-            <div class="card text-center">
-                <h5 class="card-header">Featured from Post</h5>
-                <div class="card-body">
-                    <h5 class="card-title">Report Card Program in Java.</h5>
-                    <p class="card-text">Learn how to make a report card in Java (with Source Code).</p>
-                    <a href="/posts/simple-report-card-in-java.html" class="btn btn-primary">Check it out</a>
-                </div>
-            </div>
-            </p>
-
-            <p>
-            <div class="card text-center">
-                <h5 class="card-header">Featured from News</h5>
-                <div class="card-body">
-                    <h5 class="card-title">URLRealm Announcement.</h5>
-                    <p class="card-text">Get latest updates about URLRealm.</p>
-                    <a href="/news/urlrealm.html" class="btn btn-primary">Check it out</a>
-                </div>
-            </div>
-            </p>
-
-            <footer>
-                <p>
-                    <br>
-                    <img src="https://mayankvikash.ml/assets/images/logo.webp" class="img-fluid" alt="Mayank Vikash">
-                    <br>
-                    Bio: I am a web developer and creator of M SHORTS, currently learning Game Development
-                    <br>
-                    <a class="web-link" href="/sitemap.xml">Sitemap</a> &nbsp; &nbsp; <a class="web-link"
-                        href="/sitemap.html">HTML Sitemap</a>
-                    <br> <br>
-                    ©2022 Mayank Vikash. Made with Front-End Technologies.
                 </p>
-            </footer>
-
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Simple Report Card in Java</h5>
+                <p class="card-text"><iframe src="https://mayankvikash.ml/posts/simple-report-card-in-java/"
+                    frameborder="0"></iframe></p>
+              </div>
+            </div>
+          </div>
         </div>
+        </p>
+      </div>
+
+      <div id="about">
+        <h2 style="text-align: center;">About</h2>
+        <p>My name is Mayank Vikash. I was born on 16th August, 2007 in Delhi, India. I am a student who is passionate
+          about learning how things works. I have learned HTML, CSS, Javascript, and Bootstrap myself and Java as a part
+          of my school syllabus.</p>
+        <p>My inspiration to learn programming comes from various articles, blog posts and videos around the web. Some
+          of them are FreeCodeCamp, CodeWithHarry and css-tricks.</p>
+
+        <h3 style="text-align:center;">Social Links</h3>
+        <p>I am active on these platoforms:</p>
+        <p>
+          <a href="https://hashnode.com/@MayankVikash">Hashnode</a> <br>
+          <a href="https://hackernoon.com/u/mayankvikash">Hackernoon</a> <br>
+          <a href="https://dev.to/mayankvikash">Dev.to</a> <br>
+          <a href="https://twitter.com/MayankVikash1">Twitter</a> <br>
+          <a href="https://www.freecodecamp.org/mayankvikash">FreeCodeCamp</a> <br>
+          <a href="https://in.linkedin.com/in/mayank-vikash-466972200">LinkedIn</a> <br>
+          <a href="https://tealfeed.com/mayankvikash">Tealfeed</a> <br>
+          <a href="https://github.com/MayankVikash">Github</a> <br>
+          <a href="https://dev.mayankvikash.ml">dev.mayankvikash.ml</a> <br>
+          <a href="https://mayankvikash.ml/discussion">Discussion</a> <br>
+        </p>
+
+
+
+
+      </div>
+      <div id="contact">
+        <p>
+          You can contact me through filling up this form or by sending an email to admin@mayankvikash.ml
+        </p>
+        <p>You can check out the <a href="https://mayankvikash.ml/news">news index</a> to stay updated.
+
+        </p>
+        <p> <a href="mayankvikash.ml/news/Why-URLRealm-is-not-ready-yet/"></a></p>
+        <p>
+        <form action="https://formspree.io/f/xpzovaaj" method="POST">
+          <label>
+            Your email: <br>
+            <input type="email" name="email"> <br>
+          </label>
+          <label> <br>
+            Your message: <br>
+            <textarea name="message"></textarea> <br>
+          </label> <br>
+          <!-- your other form fields go here -->
+          <button type="submit">Send</button> <br>
+        </form>
+        </p>
+
+      </div>
+
+      <div id="footer">
+        <img src="https://mayankvikash.ml/assets/images/logo.webp" alt="Mayank Vikash" title="Mayank Vikash" width="100%">
+        ©2022 Mayank Vikash. <br>
+        Made with Frontend Technologies.
+      </div>
+
+
+
+
+
+
 
     </div>
+  </div>
 
-    <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-        crossorigin="anonymous"></script>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"></script>
+
+
 </body>
 
 </html>
