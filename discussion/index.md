@@ -1,3 +1,13 @@
+---
+
+title: Discussion
+description: Welcome to Discussion | Mayank Vikash. Discuss about various topics here.
+
+---
+
+Welcome to Discussion | Mayank Vikash. You can discuss about various topics here. I will also keep posting things here.
+
+
 <div id="disqus_thread"></div>
 <script>
     /**
