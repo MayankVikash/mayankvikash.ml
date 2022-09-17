@@ -6,10 +6,10 @@
 
 ### TABLE OF CONTENTS
 
--   [Let's try thinking of the logic.](#heading-lets-try-thinking-of-the-logic)
--   [Code](#heading-code)
--   [Source Code](#heading-source-code)
--   [Output](#heading-output)
+-   [Let's try thinking of the logic.](#lets-try-thinking-of-the-logic)
+-   [Code](#code)
+-   [Source Code](#source-code)
+-   [Output](#output)
 
 A few days ago, I had a computer test and I got this program which you can read in the title. I don't know how I solved this that time. So, when I returned home I searched on Google for the solution but couldn't find anything.
 
