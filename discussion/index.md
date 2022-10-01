@@ -7,7 +7,7 @@ description: Welcome to Discussion | Mayank Vikash. Discuss about various topics
 
 
 
-Welcome to Discussion | Mayank Vikash. 
+Welcome to Discussion. 
 
 You can discuss about various topics here. I will also keep posting things here.
 
