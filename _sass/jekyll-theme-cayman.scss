@@ -376,3 +376,16 @@ a {
 .site-footer-credits {
   color: $blockquote-text-color;
 }
+
+// added by me
+figure {
+  border: 1px #cccccc solid;
+  padding: 4px;
+  margin: auto;
+}
+
+figcaption {
+  font-style: italic;
+  padding: 2px;
+  text-align: center;
+}
