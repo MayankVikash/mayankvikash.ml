@@ -52,3 +52,6 @@
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=mayankvikash&show_icons=true&locale=en" alt="mayankvikash" /></p>
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=mayankvikash&" alt="mayankvikash" /></p>
+
+This site has been move to new domain: https://mayankvikash.in/
+
